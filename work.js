@@ -36,13 +36,13 @@ start.addEventListener("click",()=>{
     start.visibility="hidden";
     info.style.visibility="hidden";
     // check=setInterval(working,10);
-    rel.style.visibility="hidden";
-    fight.innerText="FIGHT!";
-     
+    
     hero.style.bottom="60px";
     hero.style.left="200px";
     villain.style.bottom="60px";
     villain.style.left="calc(100% - 370px)";
+    rel.style.visibility="hidden";
+    fight.innerText="FIGHT!";
     
     heroHealth=100;villainHealth=100;
     audio.play();
@@ -57,7 +57,6 @@ rel.addEventListener("click",function(){
     per2.innerText=villainHealth+"%";
     fight.innerText="FIGHT!";
     // audio.play();
-    
     hero.style.bottom="60px";
     hero.style.left="200px";
     villain.style.bottom="60px";
