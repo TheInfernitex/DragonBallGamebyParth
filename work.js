@@ -56,6 +56,11 @@ rel.addEventListener("click",function(){
     hero.style.left="200px";
     villain.style.bottom="60px";
     villain.style.left="calc(100% - 370px)";
+    
+    hero.style.bottom="60px";
+    hero.style.left="200px";
+    villain.style.bottom="60px";
+    villain.style.left="calc(100% - 370px)";
     info.style.visibility="visible";
     start.visibility="visible";
     info.style.height="100vw";
