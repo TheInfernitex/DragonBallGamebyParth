@@ -71,14 +71,15 @@ rel.addEventListener("click",function(){
 document.addEventListener('keydown',function(event)
 {
     console.log(event.key+" "+event.keyCode);
-    if(event.keyCode==37) keysHero.le=true;
-    if(event.keyCode==39) keysHero.ri=true;
-    if(event.keyCode==38) keysHero.up=true;
-    if(event.keyCode==17) keysHero.ac=true;
-    if(event.keyCode==65) keysVillain.le=true;
-    if(event.keyCode==68) keysVillain.ri=true;
-    if(event.keyCode==87) keysVillain.up=true;
-    if(event.keyCode==32) keysVillain.ac=true;
+    if(event.keyCode==37) keysVillain.le=true;
+    if(event.keyCode==39) keysVillain.ri=true;
+    if(event.keyCode==38) keysVillain.up=true;
+    if(event.keyCode==17) keysVillain.ac=true;
+    if(event.keyCode==65) keysHero.le=true;
+    if(event.keyCode==68) keysHero.ri=true;
+    if(event.keyCode==87) keysHero.up=true;
+    if(event.keyCode==32) keysHero.ac=true;
+    
     
 
     //FOR HERO : 
@@ -257,14 +258,14 @@ document.addEventListener('keydown',function(event)
 
 });
 document.addEventListener('keyup',function(event){
-    if(event.keyCode==37) keysHero.le=false;
-    if(event.keyCode==39) keysHero.ri=false;
-    if(event.keyCode==38) keysHero.up=false;
-    if(event.keyCode==17) keysHero.ac=false;
-    if(event.keyCode==65) keysVillain.le=false;
-    if(event.keyCode==68) keysVillain.ri=false;
-    if(event.keyCode==87) keysVillain.up=false;
-    if(event.keyCode==32) keysVillain.ac=false;
+    if(event.keyCode==37) keysVillain.le=false;
+    if(event.keyCode==39) keysVillain.ri=false;
+    if(event.keyCode==38) keysVillain.up=false;
+    if(event.keyCode==17) keysVillain.ac=false;
+    if(event.keyCode==65) keysHero.le=false;
+    if(event.keyCode==68) keysHero.ri=false;
+    if(event.keyCode==87) keysHero.up=false;
+    if(event.keyCode==32) keysHero.ac=false;
 });
 
 
